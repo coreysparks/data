@@ -1,0 +1,19 @@
+uscounty_data.Rdata
+contents
+[1]pblack = %African American in 2005
+[2]phisp =  %Hispanic in 2005
+[3]prural= %of county population that was rural
+[4] "rucc"     = usda rural urban continuum code         
+ [5] "ppov"     = % of persons in poverty, 2005
+ [6] "pfemhh"    = % female headed households, 2010       
+ [7] "unemp"     = % unemployed, 2005       
+ [8] "medhouseval"      = median home value, 2010
+ [9] "popdensity"       = population density, 2005
+[10] "gini"             = Gini coefficient, 2010
+[11] "County"           = County name
+[12] "Deaths"           = Deaths between 2011 and 2015 CDC wonder
+[13] "Population"       = Population at risk of death, 2011-2015, CDC Wonder
+[14] "Age.Adjusted.Rate"= Age adjusted mortality rate,2011-2015, CDC Wonder
+[15] "state"         = State FIPS   
+[16] "geoid"         = county FIPS
+[17] "geometry"      = Simple feature geometry   
