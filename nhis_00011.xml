@@ -1,0 +1,1645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ipums-ddi-xslt.xsl"?>
+<codeBook xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" version="2.5" ID="ddi2-22606_nhis_00011.dat-nhis.ipums.org">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook for an Integrated Health Interview Series Data Extract</titl>
+        <subTitl>DDI 2.5 metadata describing the extract file  'nhis_00011.dat'</subTitl>
+        <IDNo>ddi2-22606_nhis_00011.dat-nhis.ipums.org</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">Minnesota Population Center</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="MPC" affiliation="University of Minnesota" role="Documentation">Minnesota Population Center</producer>
+        <prodDate date="2018-11-05">November 5, 2018</prodDate>
+        <prodPlac>Minnesota Population Center, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact affiliation="University of Minnesota" URI="http://pop.umn.edu">Minnesota Population Center</contact>
+      </distStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>User Extract nhis_00011.dat</titl>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">Minnesota Population Center</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="MPC" affiliation="University of Minnesota" role="Documentation">Minnesota Population Center</producer>
+        <prodDate date="2018-11-05">November 5, 2018</prodDate>
+        <prodPlac>Minnesota Population Center, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact affiliation="University of Minnesota" URI="http://pop.umn.edu">Minnesota Population Center</contact>
+      </distStmt>
+      <serStmt>
+        <serName abbr="nhis">NHIS</serName>
+        <serInfo>DOI:10.18128/D070.V6.3</serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2018-11-05"/>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <topcClas vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Technical Person Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Core Demographic Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Education Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">General Health Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Alcohol Consumption Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Smoking Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Physical Activity Variables -- PERSON</topcClas>
+      </subject>
+      <sumDscr ID="sdatref-2400">
+        <timePrd event="single" date="2000">2000</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2401">
+        <timePrd event="single" date="2001">2001</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2402">
+        <timePrd event="single" date="2002">2002</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2403">
+        <timePrd event="single" date="2003">2003</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2404">
+        <timePrd event="single" date="2004">2004</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2405">
+        <timePrd event="single" date="2005">2005</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2406">
+        <timePrd event="single" date="2006">2006</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2407">
+        <timePrd event="single" date="2007">2007</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2408">
+        <timePrd event="single" date="2008">2008</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2409">
+        <timePrd event="single" date="2009">2009</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2415">
+        <timePrd event="single" date="2010">2010</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2416">
+        <timePrd event="single" date="2011">2011</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2417">
+        <timePrd event="single" date="2012">2012</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2418">
+        <timePrd event="single" date="2013">2013</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2419">
+        <timePrd event="single" date="2014">2014</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  NHIS 2000; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  NHIS 2001; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  NHIS 2002; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  NHIS 2003; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  NHIS 2004; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  NHIS 2005; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  NHIS 2006; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  NHIS 2007; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  NHIS 2008; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  NHIS 2009; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  NHIS 2010; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  NHIS 2011; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  NHIS 2012; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  NHIS 2013; regular size
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  NHIS 2014; regular size
+]]></notes>
+    </stdyInfo>
+    <dataAccs>
+      <useStmt>
+        <confDec required="yes"><![CDATA[The Public Health Service Act (Section 308 (d)) provides that the data collected by the National Center for Health Statistics (NCHS), Centers for Disease Control and Prevention (CDC), may be used only for the purpose of health statistical reporting and analysis. Any effort to determine the identity of any reported case is prohibited by this law. NCHS does all it can to assure that the identity of data subjects cannot be disclosed. All direct identifiers, as well as any characteristics that might lead to identification, are omitted from the data files. Any intentional identification or disclosure of a person or establishment violates the assurances of confidentiality given to the providers of the information. 
+
+Therefore, users will: 
+
+Use the data in these data files for statistical reporting and analysis only. 
+
+Make no use of the identity of any person or establishment discovered inadvertently and advise the Director, NCHS, of any such discovery (301-458-4500). 
+
+Not link these data files with individually identifiable data from other NCHS or non-NCHS data files. 
+
+By using these data, you signify your agreement to comply with the above-stated statutorily-based requirements. ]]></confDec>
+        <contact affiliation="Minnesota Population Center" URI="http://www.nhis.ipums.org/">Integrated Health Interview Series</contact>
+        <citReq><![CDATA[Publications and research reports based on the NHIS database must cite it appropriately.  The citation is as follows:
+
+Lynn A. Blewett, Julia A. Rivera Drew, Risa Griffin, Miriam L. King, and Kari C.W. Williams. IPUMS Health  Surveys: National Health Interview Survey, Version 6.3 [dataset]. Minneapolis, MN: IPUMS, 2018. http://doi.org/10.18128/D070.V6.3
+
+If possible, citations should also include the URL for the NHIS site:  http://www.nhis.ipums.org.
+
+Please see http://www.nhis.ipums.org/nhis/citation.shtml for precise formatting of the citation.]]></citReq>
+        <conditions><![CDATA[The Public Health Service Act (Section 308 (d)) provides that the data collected by the National Center for Health Statistics (NCHS), Centers for Disease Control and Prevention (CDC), may be used only for the purpose of health statistical reporting and analysis. Any effort to determine the identity of any reported case is prohibited by this law. NCHS does all it can to assure that the identity of data subjects cannot be disclosed. All direct identifiers, as well as any characteristics that might lead to identification, are omitted from the data files. Any intentional identification or disclosure of a person or establishment violates the assurances of confidentiality given to the providers of the information. 
+
+Therefore, users must: 
+
+Use the data in these data files for statistical reporting and analysis only. 
+
+Make no use of the identity of any person or establishment discovered inadvertently and advise the Director, NCHS, of any such discovery (301-458-4500). 
+
+Not link these data files with individually identifiable data from other NCHS or non-NCHS data files. 
+
+By using these data, you signify your agreement to comply with the above-stated statutorily-based requirements. 
+
+Furthermore, users of NHIS data must agree to abide by the conditions of use. Users must agree to the following conditions:
+  
+  
+(1) Use the data in these data files for statistical reporting and analysis only 
+
+(2) Make no use of the identity of any person or establishment discovered inadvertently and advise the Director of NCHS of any such discovery (301-458-4500) 
+
+(3) Do not link these data with individually-identifiable data from NCHS or non-NCHS data files 
+
+(4) No fees may be charged for use or distribution of the data.  All persons are granted a limited license to use and distribute these data, but you may not charge a fee for the data if you distribute them to others. 
+
+(5) Cite the NHIS appropriately.  Publications and research reports based on the database must cite it appropriately.  Please see http://www.nhis.ipums.org/nhis/citation.shtml
+
+(6) NHIS cannot be used to study small geographic areas.  The smallest geographical areas identified in the NHIS are regions (groups of states) and a limited number of metropolitan areas.
+
+(7) This system provides individual-level data only.  The NHIS Data Extraction System will not produce tables. You will need to use a statistical software package, such as STATA, SAS, or SPSS, to analyze the downloaded data.  Alternatively, you may use the NHIS-SDA tabulator to produce tables online, without making a data extract.]]></conditions>
+        <disclaimer>The user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <notes><![CDATA[User-provided description:  Revision of (Revision of (ihis_for_apc))]]></notes>
+    <notes>This extract is a revision of the user's previous extract, number 9.</notes>
+  </stdyDscr>
+  <fileDscr ID="ExtractData">
+    <fileTxt>
+      <fileName>nhis_00011.dat</fileName>
+      <fileCont>Microdata records</fileCont>
+      <fileStrc type="rectangular">
+      </fileStrc>
+      <fileType charset="ISO-8859-1">ISO-8859-1 data file</fileType>
+      <format>fixed length fields</format>
+      <filePlac>Minnesota Population Center, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</filePlac>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var ID="YEAR" files="ExtractData" name="YEAR" intrvl="contin" dcml="0">
+      <location StartPos="1" width="4" EndPos="4"/>
+      <labl>Survey year</labl>
+      <txt><![CDATA[YEAR is a four-digit variable reporting the calendar year (e.g., 2003) the survey was conducted and the data were collected.  YEAR indicates the survey year reported on the household record.]]></txt>
+      <codInstr><![CDATA[This is a 4-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="SERIAL" files="ExtractData" name="SERIAL" intrvl="contin" dcml="0">
+      <location StartPos="5" width="6" EndPos="10"/>
+      <labl>Sequential Serial Number, Household Record</labl>
+      <txt><![CDATA[SERIAL is an IPUMS NHIS-constructed value that is an identifying number unique to each household in a given survey year. The combination of YEAR and SERIAL provides a unique identifier for every household in the IPUMS NHIS database.]]></txt>
+      <codInstr><![CDATA[
+SERIAL is a 6-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="STRATA" files="ExtractData" name="STRATA" intrvl="contin" dcml="0">
+      <location StartPos="11" width="4" EndPos="14"/>
+      <labl>Stratum for variance estimation</labl>
+      <txt><![CDATA[STRATA is an IPUMS NHIS-constructed variable based on the NHIS sample design variables in the public use files concatenated with a sample design period indicator. STRATA represents the impact of the sample design stratification on the estimates of variance and standard errors. It is constant within a sample design period and changes between sample design periods. For analysis, researchers need to use STRATA in conjunction with PSU to account for stratification and clustering when computing variance estimates with IPUMS NHIS data.
+
+See the User Notes [URL omitted from DDI.] on variance estimation for additional information.]]></txt>
+      <codInstr><![CDATA[
+STRATA is a 5-digit numeric variable.
+
+000:	Not in Universe]]></codInstr>
+      <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="PSU" files="ExtractData" name="PSU" intrvl="contin" dcml="0">
+      <location StartPos="15" width="3" EndPos="17"/>
+      <labl>Primary sampling unit (PSU) for variance estimation</labl>
+      <txt><![CDATA[PSU is the primary sampling unit variable that represents the impact of the sample design clustering on the estimates of variance and standard errors. It is constant within a sample design period and changes between sample design periods. For analysis, researchers need to use PSU in conjunction with STRATA to account for stratification and clustering when computing variance estimates with IPUMS NHIS data.  
+
+See the User Notes [URL omitted from DDI.] on variance estimation for additional information.]]></txt>
+      <codInstr><![CDATA[
+PSU is a 3-digit numeric variable.
+
+000:	Not in Universe]]></codInstr>
+      <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="NHISHID" files="ExtractData" name="NHISHID" intrvl="contin" dcml="0">
+      <location StartPos="18" width="14" EndPos="31"/>
+      <labl>NHIS Unique identifier, household</labl>
+      <txt><![CDATA[NHISHID is an IPUMS NHIS-constructed value that is an identifying number unique to each household in a given survey year. Using NHISHID, analysts can link IPUMS NHIS data with additional household-level data elements, from the NHIS source public use data files, that are not currently available in IPUMS.  NHISHID is a single variable constructed by concatenating multiple data elements from the NHIS source data files.  Analysts wishing to link person-level NHIS data should use the person-level linking key NHISPID.
+
+See the user note on LINKING [URL omitted from DDI.] for instructions on how to create links between IPUMS NHIS and NHIS source data.]]></txt>
+      <codInstr><![CDATA[
+NHISHID is a 14-character string variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="character"/>
+    </var>
+    <var ID="HHWEIGHT" files="ExtractData" name="HHWEIGHT" intrvl="contin" dcml="0">
+      <location StartPos="32" width="6" EndPos="37"/>
+      <labl>Household weight, final annual</labl>
+      <txt><![CDATA[HHWEIGHT is an IPUMS NHIS-constructed variable based on the Final Annual Household Weight for 1997 forward and the Final Basic Weight in 1969-1996 NHIS public use files. HHWEIGHT represents the inverse probability of household selection into the sample, adjusted for non-response. For analyses using the household as the unit of analysis (e.g., how many households contained a person who needed help with activities of daily living?), researchers should use the household weight. 
+
+Rather than using HHWEIGHT, researchers should use PERWEIGHT or SAMPWEIGHT when analyzing person-level variables or variables from the sample adult/sample child supplements from 1997 forward. See the User Notes [URL omitted from DDI.] on the use of sampling weights for additional information.]]></txt>
+      <codInstr><![CDATA[
+HHWEIGHT is a 6-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Household Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="NHISPID" files="ExtractData" name="NHISPID" intrvl="contin" dcml="0">
+      <location StartPos="38" width="16" EndPos="53"/>
+      <labl>NHIS Unique Identifier, person</labl>
+      <txt><![CDATA[NHISPID is an IPUMS NHIS-constructed value that is an identifying number unique to each person in a given survey year.  Using NHISPID, analysts can link IPUMS NHIS data with additional data elements, from the NHIS source public use data files, that are not currently available in IPUMS.  For example, researchers can use NHISPID to link variables in IPUMS NHIS with other variables from the core NHIS files variables.  Alternatively, users may use NHISPID to link variables from IPUMS with variables from NHIS supplements that are not yet part of IPUMS NHIS. NHISPID is a single variable constructed by concatenating multiple data elements from the NHIS source data files.  
+
+Analysts wishing to link household-level NHIS data should use the household-level linking key NHISHID.
+
+See the user note on LINKING [URL omitted from DDI.] for instructions on how to create links between IPUMS NHIS and NHIS source data.]]></txt>
+      <codInstr><![CDATA[
+NHISPID is a 16-character string variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="character"/>
+    </var>
+    <var ID="HHX" files="ExtractData" name="HHX" intrvl="contin" dcml="0">
+      <location StartPos="54" width="6" EndPos="59"/>
+      <labl>Household number (from NHIS)</labl>
+      <txt><![CDATA[For all persons, HHX reports the person's household number on the original NHIS data. HHX is unique within sample but only unique across samples when combined with information on year.]]></txt>
+      <codInstr><![CDATA[This is a 6-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="character"/>
+    </var>
+    <var ID="FMX" files="ExtractData" name="FMX" intrvl="contin" dcml="0">
+      <location StartPos="60" width="2" EndPos="61"/>
+      <labl>Family number (from NHIS)</labl>
+      <txt><![CDATA[For all persons, FMX reports the person's family number within the household, as documented on the family record on the original NHIS data. FMX is unique only when combined with information on year and household.]]></txt>
+      <codInstr><![CDATA[This is a 2-digit numeric variable with 0 implied decimal places]]></codInstr>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="character"/>
+    </var>
+    <var ID="PX" files="ExtractData" name="PX" intrvl="contin" dcml="0">
+      <location StartPos="62" width="2" EndPos="63"/>
+      <labl>Person number of respondent (from NHIS).</labl>
+      <txt><![CDATA[PX is the original person number assigned to each individual by the NHIS. PX is unique only when combined with information on year, household, and family.]]></txt>
+      <codInstr><![CDATA[
+PX is a 2-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="character"/>
+    </var>
+    <var ID="PERNUM" files="ExtractData" name="PERNUM" intrvl="contin" dcml="0">
+      <location StartPos="64" width="2" EndPos="65"/>
+      <labl>Person number within family (from reformatting)</labl>
+      <txt><![CDATA[PERNUM is an IPUMS NHIS-constructed variable that numbers all persons within each family in each household consecutively (starting with "1") in the order in which they appear in the original NHIS data.  PERNUM was created by IPUMS NHIS during the process of reformatting the original NHIS public use files.]]></txt>
+      <codInstr><![CDATA[
+PERNUM is a 2-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="PERWEIGHT" files="ExtractData" name="PERWEIGHT" intrvl="contin" dcml="0">
+      <location StartPos="66" width="12" EndPos="77"/>
+      <labl>Final basic annual weight</labl>
+      <txt><![CDATA[PERWEIGHT is an IPUMS NHIS-constructed variable based on the Final Annual Weight in the original NHIS public use files.  This weight should be used for many analyses at the person level, particularly with variables for which information was collected about all family members. PERWEIGHT represents the inverse probability of selection into the sample, adjusted for non-response with post-stratification adjustments for age, race/ethnicity, and sex using the Census Bureau's population control totals. For each year, the sum of these weights is equal to that year's civilian, non-institutionalized U.S. population.
+
+There are instances, however, when the researcher should use a different person-level weight, particularly with supplements where a random adult or child family member was selected for questioning. For example, researchers analyzing variables from the sample adult/sample child supplements from 1997 forward should use SAMPWEIGHT rather than PERWEIGHT. 
+
+Users  should review the documentation for extracted variables--most notably the "Weights" section toward the top of each variable description--to ascertain which weight is the appropriate choice for a given survey year. See the User Notes [URL omitted from DDI.] on the use of sampling weights for additional information.]]></txt>
+      <codInstr><![CDATA[
+PERWEIGHT is a 12-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="SAMPWEIGHT" files="ExtractData" name="SAMPWEIGHT" intrvl="contin" dcml="0">
+      <location StartPos="78" width="9" EndPos="86"/>
+      <labl>Sample Person Weight</labl>
+      <txt><![CDATA[SAMPWEIGHT is an IPUMS NHIS-constructed variable that represents, with a few exceptions, the random selection of a sample person in the household to complete a supplement survey.  (The exceptions to this generalization are the 1983 health insurance supplement and 1993 health insurance, access to care, and family resources supplements, which were asked of all persons in the second half of the year.)
+
+For survey years 1997 forward, SAMPWEIGHT is based on the Final Annual Sample Adult and Sample Child Weights in the original NHIS public use files. This weight should be used with variables taken from the sample adult or sample child supplements for 1997 on (as indicated by the supplement title in the "Source" section toward the top of each variable description). 
+
+SAMPWEIGHT also contains the sampling weights for a subset of the pre-1997 supplements, for which the definition of a sample person, and the rules governing the section of sample persons, are less consistent. The universe statements for SAMPWEIGHT document who was included in the supplements requiring use of this weight on a year-by-year basis. SAMPWEIGHT consistently represents the inverse probability of selection into a supplement, adjusted for non-response with additional post-stratification adjustments for age, 
+race/ethnicity, and sex using the Census Bureau's population control totals.
+
+Users  should review the documentation for extracted variables--most notably the "Weights" section toward the top of each variable description--to ascertain which weight is the appropriate choice for a given survey year. See the User Notes [URL omitted from DDI.] on the use of sampling weights for additional information.]]></txt>
+      <codInstr><![CDATA[
+SAMPWEIGHT is a 9-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="FWEIGHT" files="ExtractData" name="FWEIGHT" intrvl="contin" dcml="0">
+      <location StartPos="87" width="6" EndPos="92"/>
+      <labl>Final annual family weight</labl>
+      <txt><![CDATA[FWEIGHT is a variable based on the Final Annual Weight in the original NHIS public use files. This weight should be used for many analyses at the family level, particularly with variables for which information was collected about family characteristics. 
+
+
+Creating FWEIGHT requires using independent estimates of the number of families from a reliable source such as the U.S. Census Bureau in order to perform post-stratification adjustments in a manner similar to what was done for the person-level weights. However, such independent estimates do not exist. 
+
+As a result, the NHIS used the "principle person" method to create family-level weights. The person weight with the smallest ratio adjustment within each family was used as a proxy for the family-level ratio adjustment. This method is believed to provide a more accurate estimate of the total number of U.S. families than either the use of other person weights within the family or the use of no ratio adjustments at all. Therefore, the Family weight contains factors for selection probabilities at the household level, household non-response adjustment, and several ratio adjustment factors that are applied to all person weights.
+
+
+Users  should review the documentation for extracted variables--most notably the "Weights" section toward the top of each variable description--to ascertain which weight is the appropriate choice for a given survey year. See the User Notes [URL omitted from DDI.] on the use of sampling weights for additional information.]]></txt>
+      <codInstr><![CDATA[
+FWEIGHT is a 6-digit numeric variable.]]></codInstr>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="ASTATFLG" files="ExtractData" name="ASTATFLG" intrvl="discrete" dcml="0">
+      <location StartPos="93" width="1" EndPos="93"/>
+      <labl>Sample adult flag</labl>
+      <txt><![CDATA[ASTATFLG identifies the record of a sample adult. A sample adult is the one adult per family who was selected at random by the computerized survey instrument to answer additional health-related questions, under the survey design instituted in 1997.  All persons other than sample adults (those not having the value 1 in ASTATFLG) are coded as "not in universe" for variables derived from the additional questions asked only of sample adults.  (Some additional questions were asked of both sample adults and sample children.)   Every adult in each family, except for active duty armed forces members, was eligible to be selected as the sample adult.  
+
+ASTATFLG has the value "no one selected as sample adult" (code 4) for all adults in the family in the following two cases: 1) sample adult status was incorrectly assigned to someone in the armed forces, or 2) it could not be ascertained which adult in the family was chosen as sample adult.   
+
+A similar flag variable, CSTATFLG, identifies the record of a sample child, that is, the one person under 18 per family who was selected at random for additional health-related questions, beginning in 1997, for families that included children.
+
+This variable is automatically included in all extracts, but only has valid values for 1997 forward.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Sample adult, has record</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Sample adult, no record</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not selected as sample adult</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>No one selected as sample adult</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Armed force member</labl>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>AF member, selected as sample adult</labl>
+      </catgry>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="CSTATFLG" files="ExtractData" name="CSTATFLG" intrvl="discrete" dcml="0">
+      <location StartPos="94" width="1" EndPos="94"/>
+      <labl>Sample child flag</labl>
+      <txt><![CDATA[CSTATFLG identifies the record of a sample child.  A sample child is the one person under age 18 per family who was selected at random by the computerized survey instrument for additional health-related questions, under the survey design instituted in 1997.  All persons other than sample children (those not having the value 1 in CSTATFLG) are coded as "not in universe" for variables derived from these additional questions asked only of sample children.  (Some additional questions were asked of both sample adults and sample children.)   
+
+Every child in each family, except for active duty armed forces members and emancipated minors, was eligible to be selected as the sample child.  Emancipated minors are persons age 14 to 17 who are married or living with a partner OR who live on their own without the supervision of a parent, other adult family member, or legal guardian.  
+
+CSTATFLG has the value "no one selected as sample child" (code 4) for all children in the family in the following two cases: 1) if sample child status was incorrectly assigned to someone who was ineligible, or 2) if it was unknown which child in the family was chosen as sample child.   
+
+A similar flag variable, ASTATFLG, identifies the record of a sample adult, that is, the one person age 18+ per family who was selected at random for additional health-related questions, under the survey design instituted in 1997.
+
+This variable is automatically included in all extracts, but only has valid values for 1997 forward.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Sample child-has record</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Sample child-no record</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Not selected as sample child</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>No one selected as sample child</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Emancipated minor</labl>
+      </catgry>
+      <concept vocab="IPUMS">Technical Person Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="AGE" files="ExtractData" name="AGE" intrvl="contin" dcml="0">
+      <location StartPos="95" width="2" EndPos="96"/>
+      <labl>Age</labl>
+      <txt><![CDATA[AGE reports the individual's age, in years since last birthday.  Age is not coded as "unknown" for any persons included in the IPUMS NHIS data.  As the public use file's codebooks for 1998 forward state, "Because age is an important variable for instrument check items and in developing the weights, all respondents must have data on age."]]></txt>
+      <codInstr><![CDATA[
+
+AGE is a 2-digit-numeric variable.
+
+85:	Top code for 85 years or older 
+90:	Top code for 90 years or older 
+99:	Missing]]></codInstr>
+      <concept vocab="IPUMS">Core Demographic Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="SEX" files="ExtractData" name="SEX" intrvl="discrete" dcml="0">
+      <location StartPos="97" width="1" EndPos="97"/>
+      <labl>Sex</labl>
+      <txt><![CDATA[SEX indicates whether the person was male or female.]]></txt>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Male</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Female</labl>
+      </catgry>
+      <concept vocab="IPUMS">Core Demographic Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="MARSTAT" files="ExtractData" name="MARSTAT" intrvl="discrete" dcml="0">
+      <location StartPos="98" width="2" EndPos="99"/>
+      <labl>Legal marital status</labl>
+      <txt><![CDATA[MARSTAT reports the person's legal marital status.]]></txt>
+      <catgry>
+        <catValu>00</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Married</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>Married - Spouse present</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Married - Spouse not in household</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Married - Spouse in household unknown</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Widowed</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>Divorced</labl>
+      </catgry>
+      <catgry>
+        <catValu>40</catValu>
+        <labl>Separated</labl>
+      </catgry>
+      <catgry>
+        <catValu>50</catValu>
+        <labl>Never married</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Unknown marital status</labl>
+      </catgry>
+      <concept vocab="IPUMS">Core Demographic Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="MARST" files="ExtractData" name="MARST" intrvl="discrete" dcml="0">
+      <location StartPos="100" width="2" EndPos="101"/>
+      <labl>Current marital status</labl>
+      <txt><![CDATA[MARST reports the person's current marital status.]]></txt>
+      <catgry>
+        <catValu>00</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Married</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>Married - Spouse present</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Married - Spouse not in household</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Married - Spouse in household unknown</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Widowed</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>Divorced</labl>
+      </catgry>
+      <catgry>
+        <catValu>40</catValu>
+        <labl>Separated</labl>
+      </catgry>
+      <catgry>
+        <catValu>50</catValu>
+        <labl>Never married</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Unknown marital status</labl>
+      </catgry>
+      <concept vocab="IPUMS">Core Demographic Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="BIRTHYR" files="ExtractData" name="BIRTHYR" intrvl="contin" dcml="0">
+      <location StartPos="102" width="4" EndPos="105"/>
+      <labl>Year of birth</labl>
+      <txt><![CDATA[For all persons, BIRTHYR reports the person's year of birth.
+
+Beginning in 2017, NHIS has suppressed birth year; this variable is no longer available on public use files.]]></txt>
+      <codInstr><![CDATA[
+
+BIRTHYR is a 4-digit-numeric variable. 
+
+9997:	Unknown-Refused 
+9998:	Not in Universe or Not Ascertained
+9999:	Unknown-Don't know
+
+BIRTHYR is bottom coded to 84 years before the survey year (e.g. for 1997, bottom code is 1913: birth year 1913 and before; for 1998, bottom code is 1914: birth year 1914 and before).]]></codInstr>
+      <concept vocab="IPUMS">Core Demographic Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="RACEA" files="ExtractData" name="RACEA" intrvl="discrete" dcml="0">
+      <location StartPos="106" width="3" EndPos="108"/>
+      <labl>Main Racial Background (Pre-1997 Revised OMB Standards), self-reported or interviewer reported</labl>
+      <txt><![CDATA[RACEA incorporates information from RACEID and RACESR. Accordingly, RACEA reports, for 1968-1977, the interviewer-identified race of all persons, and for 1978 forward, the self-reported, main racial background of all persons using the pre-1997 Office of Management and Budget's (OMB's) Statistical Policy Directive No. 15 (Race and Ethnic Standards for Federal Statistics and Administrative Reporting). More information on the OMB's Directive 15 can be found at Standards for the Classification of Federal Data on Race and Ethnicity [URL omitted from DDI.].]]></txt>
+      <catgry>
+        <catValu>100</catValu>
+        <labl>White</labl>
+      </catgry>
+      <catgry>
+        <catValu>200</catValu>
+        <labl>Black/African-American</labl>
+      </catgry>
+      <catgry>
+        <catValu>300</catValu>
+        <labl>Aleut, Alaskan Native, or American Indian</labl>
+      </catgry>
+      <catgry>
+        <catValu>310</catValu>
+        <labl>Alaskan Native or American Indian</labl>
+      </catgry>
+      <catgry>
+        <catValu>320</catValu>
+        <labl>Alaskan Native/Eskimo</labl>
+      </catgry>
+      <catgry>
+        <catValu>330</catValu>
+        <labl>Aleut</labl>
+      </catgry>
+      <catgry>
+        <catValu>340</catValu>
+        <labl>American Indian</labl>
+      </catgry>
+      <catgry>
+        <catValu>400</catValu>
+        <labl>Asian or Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>410</catValu>
+        <labl>Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>411</catValu>
+        <labl>Chinese</labl>
+      </catgry>
+      <catgry>
+        <catValu>412</catValu>
+        <labl>Filipino</labl>
+      </catgry>
+      <catgry>
+        <catValu>413</catValu>
+        <labl>Korean</labl>
+      </catgry>
+      <catgry>
+        <catValu>414</catValu>
+        <labl>Vietnamese</labl>
+      </catgry>
+      <catgry>
+        <catValu>415</catValu>
+        <labl>Japanese</labl>
+      </catgry>
+      <catgry>
+        <catValu>416</catValu>
+        <labl>Asian Indian</labl>
+      </catgry>
+      <catgry>
+        <catValu>420</catValu>
+        <labl>Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>421</catValu>
+        <labl>Hawaiian</labl>
+      </catgry>
+      <catgry>
+        <catValu>422</catValu>
+        <labl>Samoan</labl>
+      </catgry>
+      <catgry>
+        <catValu>423</catValu>
+        <labl>Guamanian</labl>
+      </catgry>
+      <catgry>
+        <catValu>430</catValu>
+        <labl>Other Asian or Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>431</catValu>
+        <labl>Other Asian or Pacific Islander (1992-1995)</labl>
+      </catgry>
+      <catgry>
+        <catValu>432</catValu>
+        <labl>Other Asian or Pacific Islander (1996)</labl>
+      </catgry>
+      <catgry>
+        <catValu>433</catValu>
+        <labl>Other Asian or Pacific Islander (1997-1998)</labl>
+      </catgry>
+      <catgry>
+        <catValu>434</catValu>
+        <labl>Other Asian (1999 forward)</labl>
+      </catgry>
+      <catgry>
+        <catValu>500</catValu>
+        <labl>Other Race</labl>
+      </catgry>
+      <catgry>
+        <catValu>510</catValu>
+        <labl>Other Race (1969-1977)</labl>
+      </catgry>
+      <catgry>
+        <catValu>520</catValu>
+        <labl>Other Race (1978)</labl>
+      </catgry>
+      <catgry>
+        <catValu>530</catValu>
+        <labl>Other Race (1979-1991)</labl>
+      </catgry>
+      <catgry>
+        <catValu>540</catValu>
+        <labl>Other Race (1992-1995)</labl>
+      </catgry>
+      <catgry>
+        <catValu>550</catValu>
+        <labl>Other Race (1996)</labl>
+      </catgry>
+      <catgry>
+        <catValu>560</catValu>
+        <labl>Other Race (1997-1998)</labl>
+      </catgry>
+      <catgry>
+        <catValu>570</catValu>
+        <labl>Other Race (1999-2002)</labl>
+      </catgry>
+      <catgry>
+        <catValu>580</catValu>
+        <labl>Primary Race not releasable</labl>
+      </catgry>
+      <catgry>
+        <catValu>600</catValu>
+        <labl>Multiple Race, No Primary Race Selected</labl>
+      </catgry>
+      <catgry>
+        <catValu>610</catValu>
+        <labl>Multiple Race, including Asian, excluding Black and White</labl>
+      </catgry>
+      <catgry>
+        <catValu>611</catValu>
+        <labl>Multiple Race, including Asian and Black, excluding White</labl>
+      </catgry>
+      <catgry>
+        <catValu>612</catValu>
+        <labl>Multiple Race, including Asian and White, excluding Black</labl>
+      </catgry>
+      <catgry>
+        <catValu>613</catValu>
+        <labl>Multiple Race, including Black, excluding Asian and White</labl>
+      </catgry>
+      <catgry>
+        <catValu>614</catValu>
+        <labl>Multiple Race, including Black and White, excluding Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>615</catValu>
+        <labl>Multiple Race, including White, excluding Asian and Black</labl>
+      </catgry>
+      <catgry>
+        <catValu>616</catValu>
+        <labl>Multiple Race, including Asian, White, and Black</labl>
+      </catgry>
+      <catgry>
+        <catValu>617</catValu>
+        <labl>Multiple Race, excluding Asian, White, and Black</labl>
+      </catgry>
+      <catgry>
+        <catValu>900</catValu>
+        <labl>Unknown</labl>
+      </catgry>
+      <catgry>
+        <catValu>970</catValu>
+        <labl>Unknown-refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>980</catValu>
+        <labl>Unknown-not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>990</catValu>
+        <labl>Unknown (1997forward: Don't know)</labl>
+      </catgry>
+      <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="HISPETH" files="ExtractData" name="HISPETH" intrvl="discrete" dcml="0">
+      <location StartPos="109" width="2" EndPos="110"/>
+      <labl>Hispanic ethnicity</labl>
+      <txt><![CDATA[HISPETH identifies and classifies persons of Hispanic/Spanish/Latino origin or ancestry. According to the Field Representative's Manual for 1976-1981, "The term 'national origin or ancestry' refers to the national or cultural group from which the person is descended. A person may report his origin based on the origin of a parent, a grandparent, or some far-removed ancestor." The 1982 Field Representative's Manual noted, "There is no set rule as to how many generations are to be taken into account in determining origin."]]></txt>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Not Hispanic/Spanish origin</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Mexican</labl>
+      </catgry>
+      <catgry>
+        <catValu>21</catValu>
+        <labl>Mexican-Mexicano</labl>
+      </catgry>
+      <catgry>
+        <catValu>22</catValu>
+        <labl>Mexicano</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>Mexican-American</labl>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>Chicano</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>Puerto Rican</labl>
+      </catgry>
+      <catgry>
+        <catValu>40</catValu>
+        <labl>Cuban/Cuban American</labl>
+      </catgry>
+      <catgry>
+        <catValu>50</catValu>
+        <labl>Dominican (Republic)</labl>
+      </catgry>
+      <catgry>
+        <catValu>60</catValu>
+        <labl>Other Hispanic</labl>
+      </catgry>
+      <catgry>
+        <catValu>61</catValu>
+        <labl>Central or South American</labl>
+      </catgry>
+      <catgry>
+        <catValu>62</catValu>
+        <labl>Other Latin American, type not specified</labl>
+      </catgry>
+      <catgry>
+        <catValu>63</catValu>
+        <labl>Other Spanish</labl>
+      </catgry>
+      <catgry>
+        <catValu>64</catValu>
+        <labl>Hispanic/Latino/Spanish, non-specific type</labl>
+      </catgry>
+      <catgry>
+        <catValu>65</catValu>
+        <labl>Hispanic/Latino/Spanish, type refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>66</catValu>
+        <labl>Hispanic/Latino/Spanish, type not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>67</catValu>
+        <labl>Hispanic/Spanish, type don't know</labl>
+      </catgry>
+      <catgry>
+        <catValu>70</catValu>
+        <labl>Multiple Hispanic</labl>
+      </catgry>
+      <catgry>
+        <catValu>90</catValu>
+        <labl>Unknown</labl>
+      </catgry>
+      <catgry>
+        <catValu>91</catValu>
+        <labl>Unknown if Hispanic/Spanish origin</labl>
+      </catgry>
+      <catgry>
+        <catValu>92</catValu>
+        <labl>Two origins, unknown which is the main</labl>
+      </catgry>
+      <catgry>
+        <catValu>93</catValu>
+        <labl>Origin unknown, refused or not reported</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="YRSINUS" files="ExtractData" name="YRSINUS" intrvl="discrete" dcml="0">
+      <location StartPos="111" width="1" EndPos="111"/>
+      <labl>Number of years spent in the U.S.</labl>
+      <txt><![CDATA[For individuals born outside the 50 United States and the District of Columbia, YRSINUS indicates how long such persons had been in the United States.  In most cases, this information was collected via the question, "In what year did you come to the United States to stay?"  If the response to this question was "refused" or "don't know," the interviewer tried to collect the information via an alternatively phrased question: "About how long have you been in the United States?"   
+
+The data included in the public use files for YRSINUS are recodes of the responses to these questions, with each answer in the form of a calendar year converted to a number of years present.  The calendar year format of the initial question would have increased the precision of responses by discouraging rounding; the recoded format (number of years present) is easier for researchers to analyze.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Less than 1 year</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>1 year to less than 5 years.</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>5 years to less than 10 years</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>10 years to less than 15 years</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>15 years or more</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Don't Know</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Not Ascertained</labl>
+      </catgry>
+      <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="HISPYN" files="ExtractData" name="HISPYN" intrvl="discrete" dcml="0">
+      <location StartPos="112" width="1" EndPos="112"/>
+      <labl>Hispanic ethnicity, dichotomous</labl>
+      <txt><![CDATA[For all persons, HISPYN indicates if the respondent considers her/himself Hispanic or Latino.]]></txt>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>No, not of Hispanic ethnicity</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Yes, of Hispanic ethnicity</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Unknown--refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Unknown--not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Unknown--don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="USBORN" files="ExtractData" name="USBORN" intrvl="discrete" dcml="0">
+      <location StartPos="113" width="2" EndPos="114"/>
+      <labl>Born in the United States</labl>
+      <txt><![CDATA[USBORN indicates whether the respondent was born in the United States (i.e., in one of the 50 states or in the District of Columbia).  To collect this information, interviewers asked, "Where were you born?"  Responses were recoded in the original NHIS public use files into the categories included in this variable.
+
+Related Variables
+
+REGIONBR provides additional detail on the place of birth of respondents born outside the United States.  In REGIONBR, respondents' reported countries of birth were recoded in the original NHIS public use files into 12 broad regional categories.
+]]></txt>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>No</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>No, born in U.S. territory</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>No, born outside U.S. and U.S. territories</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Yes, born in U.S. state or DC</labl>
+      </catgry>
+      <catgry>
+        <catValu>96</catValu>
+        <labl>Inapplicable</labl>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Unknown-refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>Unknown-not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Unknown-don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="CITIZEN" files="ExtractData" name="CITIZEN" intrvl="discrete" dcml="0">
+      <location StartPos="115" width="1" EndPos="115"/>
+      <labl>U.S. citizenship</labl>
+      <txt><![CDATA[CITIZEN indicates whether the individual was a U.S. citizen. 
+
+This variable is a recode of more detailed information collected in response to the question, "Are you a citizen of the United States?"  In the recoded CITIZEN variable, the affirmative value (IPUMS NHIS code 2) includes the following categories: Yes, born in one of 50 U.S. states or the District of Columbia; Yes, born in Puerto Rico, Guam, American Virgin Islands, or other U.S. territory; Yes, born abroad to American parent(s); and Yes, U.S. citizen by naturalization.]]></txt>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>No, not U.S. citizen</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Yes, U.S. citizen</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Unknown--refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Unknown--not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Unknown--don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="RACENEW" files="ExtractData" name="RACENEW" intrvl="discrete" dcml="0">
+      <location StartPos="116" width="2" EndPos="117"/>
+      <labl>Self-reported Race (Post-1997 OMB standards)</labl>
+      <txt><![CDATA[RACENEW provides information on self-reported, main racial background of all persons, using the October 30, 1997 revision of Statistical Policy Directive No. 15, Race and Ethnic Standards for Federal Statistics and Administrative Reporting.]]></txt>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>White</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Black/African American</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>American Indian/Alaskan Native</labl>
+      </catgry>
+      <catgry>
+        <catValu>40</catValu>
+        <labl>Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>50</catValu>
+        <labl>Multiple Race</labl>
+      </catgry>
+      <catgry>
+        <catValu>60</catValu>
+        <labl>Other Race</labl>
+      </catgry>
+      <catgry>
+        <catValu>61</catValu>
+        <labl>Race Group Not Releasable</labl>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Unknown-Refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>Unknown-Not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Unknown-Don't Know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="RACEBR" files="ExtractData" name="RACEBR" intrvl="discrete" dcml="0">
+      <location StartPos="118" width="2" EndPos="119"/>
+      <labl>Race Bridge Variable (Pre-1997 OMB standards to Post-1997 OMB standards)</labl>
+      <txt><![CDATA[RACEBR is a "bridge variable" that permits users to bridge self-reported race data collected under the October 30, 1997 revision of Statistical Policy Directive No. 15, Race and Ethnic Standards for Federal Statistics and Administrative Reporting, with self-reported race data collected under the pre-1997 Office of Management and Budget's (OMB's) Statistical Policy Directive No. 15. More information on the OMB's Directive 15 can be found at Standards for the Classification of Federal Data on Race and Ethnicity [URL omitted from DDI.].]]></txt>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>White</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Black/African American</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>American Indian (Includes Eskimo, Aleut)</labl>
+      </catgry>
+      <catgry>
+        <catValu>40</catValu>
+        <labl>Chinese</labl>
+      </catgry>
+      <catgry>
+        <catValu>50</catValu>
+        <labl>Filipino</labl>
+      </catgry>
+      <catgry>
+        <catValu>60</catValu>
+        <labl>Asian Indian</labl>
+      </catgry>
+      <catgry>
+        <catValu>70</catValu>
+        <labl>Other Race</labl>
+      </catgry>
+      <catgry>
+        <catValu>80</catValu>
+        <labl>Multiple Race</labl>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Unknown-refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>Unknown-not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Unknown-don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Ethnicity/Nativity Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="EDUCREC2" files="ExtractData" name="EDUCREC2" intrvl="discrete" dcml="0">
+      <location StartPos="120" width="2" EndPos="121"/>
+      <labl>Educational attainment recode, intervalled</labl>
+      <txt><![CDATA[EDUCREC2 is a recoded combination of two other variables, HIGRADE2 and EDUC, which measure educational attainment in different ways.  HIGRADE2, available for 1968-1996, reports the respondent's highest grade of school or year of college completed, in intervals (e.g., grouping together grades 1 through 4).  EDUC, available beginning in 1997, classifies high school graduates according to their highest degree or diploma obtained.  In EDUCREC2, the HIGRADE2 categories are given the same codes as their approximate equivalents in EDUC.]]></txt>
+      <catgry>
+        <catValu>00</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Never attended/kindergarten only</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Grade 1, 2, 3, or 4</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>Grade 5, 6, 7, or 8</labl>
+      </catgry>
+      <catgry>
+        <catValu>31</catValu>
+        <labl>Grade 5, 6, or 7</labl>
+      </catgry>
+      <catgry>
+        <catValu>32</catValu>
+        <labl>Grade 8</labl>
+      </catgry>
+      <catgry>
+        <catValu>40</catValu>
+        <labl>Grade 9, 10, 11, or 12</labl>
+      </catgry>
+      <catgry>
+        <catValu>41</catValu>
+        <labl>Grade 9, 10, or 11</labl>
+      </catgry>
+      <catgry>
+        <catValu>42</catValu>
+        <labl>Grade 12</labl>
+      </catgry>
+      <catgry>
+        <catValu>50</catValu>
+        <labl>1 to 4 years of college</labl>
+      </catgry>
+      <catgry>
+        <catValu>51</catValu>
+        <labl>1 to 3 years of college</labl>
+      </catgry>
+      <catgry>
+        <catValu>52</catValu>
+        <labl>1 to 2 years of college</labl>
+      </catgry>
+      <catgry>
+        <catValu>53</catValu>
+        <labl>3 to 4 years of college</labl>
+      </catgry>
+      <catgry>
+        <catValu>54</catValu>
+        <labl>4 years college/Bachelor's degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>60</catValu>
+        <labl>5+ years of college</labl>
+      </catgry>
+      <catgry>
+        <catValu>96</catValu>
+        <labl>Unknown-not reported</labl>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Unknown-refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>Unknown-not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Unknown (1996 forward - Don't know)</labl>
+      </catgry>
+      <concept vocab="IPUMS">Education Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="EDUCREC1" files="ExtractData" name="EDUCREC1" intrvl="discrete" dcml="0">
+      <location StartPos="122" width="2" EndPos="123"/>
+      <labl>Educational attainment recode, nonintervalled</labl>
+      <txt><![CDATA[EDUCREC1 is a recoded combination of two other variables, HIGRADE1 and EDUC, which measure educational attainment in different ways.  HIGRADE1, available for 1982-1996, reports the respondent's highest grade of school or year of college completed, by single years.  EDUC, available beginning in 1997, classifies high school graduates according to their highest degree or diploma obtained.  In EDUCREC1, the HIGRADE1 categories are given the same codes as their approximate equivalents in EDUC.]]></txt>
+      <catgry>
+        <catValu>00</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>01</catValu>
+        <labl>Never attended/kindergarten only</labl>
+      </catgry>
+      <catgry>
+        <catValu>02</catValu>
+        <labl>Grade 1</labl>
+      </catgry>
+      <catgry>
+        <catValu>03</catValu>
+        <labl>Grade 2</labl>
+      </catgry>
+      <catgry>
+        <catValu>04</catValu>
+        <labl>Grade 3</labl>
+      </catgry>
+      <catgry>
+        <catValu>05</catValu>
+        <labl>Grade 4</labl>
+      </catgry>
+      <catgry>
+        <catValu>06</catValu>
+        <labl>Grade 5</labl>
+      </catgry>
+      <catgry>
+        <catValu>07</catValu>
+        <labl>Grade 6</labl>
+      </catgry>
+      <catgry>
+        <catValu>08</catValu>
+        <labl>Grade 7</labl>
+      </catgry>
+      <catgry>
+        <catValu>09</catValu>
+        <labl>Grade 8</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Grade 9</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>Grade 10</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Grade 11</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Grade 12</labl>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>1 to 3 years of college</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>4 years college/Bachelor's degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>5+ years of college</labl>
+      </catgry>
+      <catgry>
+        <catValu>96</catValu>
+        <labl>Unknown--all causes</labl>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>Unknown--refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>Unknown--not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Unknown--not known</labl>
+      </catgry>
+      <concept vocab="IPUMS">Education Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="EDUC" files="ExtractData" name="EDUC" intrvl="discrete" dcml="0">
+      <location StartPos="124" width="3" EndPos="126"/>
+      <labl>Educational attainment</labl>
+      <txt><![CDATA[EDUC reports the highest level of schooling an individual had completed, in terms of completed grades for persons with less than a high school degree, and in terms of degrees attained for high school graduates and those with higher education.  Respondents were handed a card listing recognized categories and asked to identify the correct category.
+
+According to the Field Representative's Manuals for 1997-2000, only "regular schooling which advances a person toward an elementary or high school diploma, or a college/university/professional school (such as law, medicine, dentistry)" counted as education.  Schooling in settings other than "regular schools" counted only if the credits obtained were acceptable in a regular school system.  Thus, for example, "adult education" classes not taken for credit or for the attainment of a college degree did not count.  
+
+For the end of high school, EDUC distinguishes between those who completed twelfth grade but did not attain a diploma (e.g., those who failed to pass state-mandated high school exit examinations), those who graduated from high school, and those passed the GED (General Equivalence Degree) Test (which certifies that the test taker has attained high school-level academic skills).  Persons who attained a high school diploma in less than twelve years were to be recorded as "high school graduates," a guideline consistent with EDUC's emphasis on degrees attained rather than years spent in the classroom.  The Field Representative's Manual for 1997-2000 directed interviewers to probe to determine whether persons who attended "post-graduate" high school classes but did not attend college had received a high school diploma.  
+
+For nurses, interviewers were to determine whether training was received in a college or in a nursing school (with the grade completed at the last regular--non-nursing--school to be entered in the latter case).  For a person attending special education classes or a school for persons with mental, physical, or developmental difficulties, interviewers were to ask which grade in a regular school most closely matched the individual's education level.  Persons currently in school were generally assumed to have completed the previous grade.]]></txt>
+      <catgry>
+        <catValu>000</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>100</catValu>
+        <labl>Grade 8 or less</labl>
+      </catgry>
+      <catgry>
+        <catValu>101</catValu>
+        <labl>Never attended/kindergarten only</labl>
+      </catgry>
+      <catgry>
+        <catValu>102</catValu>
+        <labl>Grade 1</labl>
+      </catgry>
+      <catgry>
+        <catValu>103</catValu>
+        <labl>Grade 2</labl>
+      </catgry>
+      <catgry>
+        <catValu>104</catValu>
+        <labl>Grade 3</labl>
+      </catgry>
+      <catgry>
+        <catValu>105</catValu>
+        <labl>Grade 4</labl>
+      </catgry>
+      <catgry>
+        <catValu>106</catValu>
+        <labl>Grade 5</labl>
+      </catgry>
+      <catgry>
+        <catValu>107</catValu>
+        <labl>Grade 6</labl>
+      </catgry>
+      <catgry>
+        <catValu>108</catValu>
+        <labl>Grade 7</labl>
+      </catgry>
+      <catgry>
+        <catValu>109</catValu>
+        <labl>Grade 8</labl>
+      </catgry>
+      <catgry>
+        <catValu>200</catValu>
+        <labl>Grade 9-12. no diploma</labl>
+      </catgry>
+      <catgry>
+        <catValu>201</catValu>
+        <labl>Grade 9</labl>
+      </catgry>
+      <catgry>
+        <catValu>202</catValu>
+        <labl>Grade 10</labl>
+      </catgry>
+      <catgry>
+        <catValu>203</catValu>
+        <labl>Grade 11</labl>
+      </catgry>
+      <catgry>
+        <catValu>204</catValu>
+        <labl>12th grade, no diploma</labl>
+      </catgry>
+      <catgry>
+        <catValu>300</catValu>
+        <labl>High school diploma or GED</labl>
+      </catgry>
+      <catgry>
+        <catValu>301</catValu>
+        <labl>High school graduate</labl>
+      </catgry>
+      <catgry>
+        <catValu>302</catValu>
+        <labl>GED or equivalent</labl>
+      </catgry>
+      <catgry>
+        <catValu>400</catValu>
+        <labl>Some college, no 4yr degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>401</catValu>
+        <labl>Some college, no degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>402</catValu>
+        <labl>AA degree: technical/vocational/occupational</labl>
+      </catgry>
+      <catgry>
+        <catValu>403</catValu>
+        <labl>AA degree: academic program</labl>
+      </catgry>
+      <catgry>
+        <catValu>500</catValu>
+        <labl>Bachelor's degree (BA,AB,BS,BBA)</labl>
+      </catgry>
+      <catgry>
+        <catValu>600</catValu>
+        <labl>Master's, Professional, or Doctoral Degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>601</catValu>
+        <labl>Master's degree (MA,MS,Med,MBA)</labl>
+      </catgry>
+      <catgry>
+        <catValu>602</catValu>
+        <labl>Professional (MD,DDS,DVM,JD)</labl>
+      </catgry>
+      <catgry>
+        <catValu>603</catValu>
+        <labl>Doctoral degree (PhD, EdD)</labl>
+      </catgry>
+      <catgry>
+        <catValu>604</catValu>
+        <labl>Other degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>996</catValu>
+        <labl>No degree, years of education unknown</labl>
+      </catgry>
+      <catgry>
+        <catValu>997</catValu>
+        <labl>Unknown--refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>998</catValu>
+        <labl>Unknown--not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>999</catValu>
+        <labl>Unknown--don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">Education Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="HEALTH" files="ExtractData" name="HEALTH" intrvl="discrete" dcml="0">
+      <location StartPos="127" width="1" EndPos="127"/>
+      <labl>Health status</labl>
+      <txt><![CDATA[HEALTH rates an individual's general health (as self-reported by the person in question or evaluated by a family member] on a four-point (1972-81) or five-point (1982 forward) Likert scale, ranging from "excellent" to "poor" (along with an unrated "unknown" category).
+
+For 1997 forward, HSTATYR reports whether the health status of sample adults and sample children was better, worse, or about the same as one year ago.]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Excellent</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Very Good</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Good</labl>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Fair</labl>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Poor</labl>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Unknown-refused</labl>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Unknown-not ascertained</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Unknown-don't know</labl>
+      </catgry>
+      <concept vocab="IPUMS">General Health Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="BMICALC" files="ExtractData" name="BMICALC" intrvl="contin" dcml="1">
+      <location StartPos="128" width="4" EndPos="131"/>
+      <labl>Body Mass Index, calculated from publicly released height and weight variables</labl>
+      <txt><![CDATA[BMICALC reports the Body Mass Index, a measure of body fat based on height and weight that applies to adult men and women, as calculated by IPUMS NHIS from the public use file data on height and weight.  BMICALC was calculated using the following formula: [Weight in pounds/(Height in inches, squared)] multiplied by 703 and rounded to one digit past the implied decimal point.  Individuals not asked their weight and height are coded "000" (for "Not in universe") for BMICALC.   Individuals whose weight or height was topcoded, bottomcoded, or, for 1997 forward, an outlying value that was suppressed for confidentiality reasons, receive a code of "996" for BMICALC.
+
+The website of the Centers for Disease Control and Prevention on BMI reports the following "standard weight status categories associated with BMI ranges for adults."  BMI below 18.5 is associated with "underweight" weight status; BMI 18.5 to 24.9 is associated with "normal" weight status; BMI 25.0 to 29.9 is associated with "overweight" weight status; BMI 30.0 and above is associated with "obese" weight status.  
+
+
+The CDC website also notes, "the correlation between the BMI number and body fatness is fairly strong; however, the correlation varies by sex, race, and age."  For example, women tend to have more body fat than men at the same BMI; older people, on average, tend to have more body fat than young adults; and highly trained athletes may have a high BMI because of increased muscularity rather than increased body fatness.  The CDC adds, "It is important to remember that BMI is only one factor related to risk for disease," and that other predictors, such as waist circumference and levels of blood pressure and physical activity, are also important.
+]]></txt>
+      <codInstr><![CDATA[
+BMICALC is a variable with three columns and one implied decimal place.
+
+0.0 = NIU
+996 = Not calculable]]></codInstr>
+      <concept vocab="IPUMS">General Health Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="ALCSTAT1" files="ExtractData" name="ALCSTAT1" intrvl="discrete" dcml="0">
+      <location StartPos="132" width="1" EndPos="132"/>
+      <labl>Alcohol drinking status: Recode</labl>
+      <txt><![CDATA[ALCSTAT1 indicates the alcohol drinking status of the sample adult. ALCSTAT1 summarizes the responses to the question, "In your entire life, have you had at least 12 drinks of any type of alcoholic beverage?"
+
+The Field Representative's Manual defines alcohol to "include as alcohol all types of beer (including stout, ale, malt liquor, or light beer, but does not include alcohol-free beer), wine (including port, sherry, sangria wine coolers, and champagne), and liquor (including brandy, liqueurs, scotch, whiskeys, tequila and gin)."]]></txt>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Lifetime abstainer (lt 12 drinks in life)</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Former drinker (no drinks past year)</labl>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Current drinker (1+ drinks past year)</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Drinking status unknown</labl>
+      </catgry>
+      <concept vocab="IPUMS">Alcohol Consumption Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="SMOKESTATUS2" files="ExtractData" name="SMOKESTATUS2" intrvl="discrete" dcml="0">
+      <location StartPos="133" width="2" EndPos="134"/>
+      <labl>Cigarette smoking recode 2: Current detailed/former/never</labl>
+      <txt><![CDATA[For sample adults 18 and over, this is a recoded variable indicating the respondent's current smoking status in categories of current smoker, every day current smoker, some day current smoker, current smoker--unknown frequency of smoking, and also indicates former smoker, never smoked and "has smoked, current smoking status unknown."
+
+
+In this variable, current smokers were divided into "every day" smokers or "some days" smokers.  The process to classify respondents into these categories changed slightly between 1991 and 1992 forward.  In 1991, ever smokers were asked if they smoke now; respondents who said "yes" were asked if they smoked "every day" or "some days.  Respondents who answered "no" were asked, "Do you smoke some days or not at all?" This additional follow-up resulted in the classification of persons as "someday smokers" who would otherwise have been considered former smokers, since they initially said that they did not smoke now. 
+
+In 1992, questions on smoking status were included in two sections of the survey; in the  Cancer Control section, the same three questions  from in the 1991 questionnaire were used;  in the Cancer Epidemiology section, just two questions were used: "Have you smoked at least 100 cigarettes during your entire life?" If yes, "Do you NOW smoke cigarettes every day, some days, or not at all?" Use of both sets of questions allowed for estimation of the impact of the question change on population prevalence. The revised current smoking status question was estimated to have resulted in an increase in smoking prevalence of about 1 percent-- a result occurring mainly from capturing smoking among persons who would otherwise have been classified as nonsmokers with the original question.
+
+This version of the question was used from 1992 forward.
+
+
+Related Variables
+
+Other recoded smoking status variables are included in the NHIS.
+
+
+These include:
+ 
+SMOKESTATUS1    "never," "current," "former," "former regular smoker," "former occasional smoker," "unknown," and unknown if ever smoked 100 cigarettes," and "smoked 100 cigarettes, unknown if currently smoke." 
+SMOKESTATUS3  categorizes respondents into current every day smoker, current some day smoker ((1 or more days, past month),  current some day smoker  (0 days, past month), current some day smoker (unknown days in past month) and also indicates former smoker, never smoked and "has smoked, current smoking status unknown." 
+]]></txt>
+      <catgry>
+        <catValu>00</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Current smoker</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>Current every day smoker</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Current some day smoker</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Current smoker, unknown how often smokes</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Former smoker</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>Never smoked</labl>
+      </catgry>
+      <catgry>
+        <catValu>40</catValu>
+        <labl>Has smoked, current smoking status unknown</labl>
+      </catgry>
+      <catgry>
+        <catValu>90</catValu>
+        <labl>Unknown if ever smoked</labl>
+      </catgry>
+      <concept vocab="IPUMS">Smoking Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="MOD10FWK" files="ExtractData" name="MOD10FWK" intrvl="contin" dcml="0">
+      <location StartPos="135" width="2" EndPos="136"/>
+      <labl>Frequency of moderate activity 10+ minutes: Times per week</labl>
+      <txt><![CDATA[MOD10FWK is a recoded variable created by the staff at the National Center for Health Statistics that draws upon the information in MOD10FTP (Frequency of moderate activity 10+ minutes: Time period) and MOD10FNO (Frequency of moderate activity 10+ minutes: Number of units) and reports the frequency of light or moderate leisure-time physical activities in terms of a single time unit, times per week.
+
+Light or moderate activities are described in the survey question itself as activities that "cause only light sweating or a slight to moderate increase in breathing or heart rate."  The Field Representative's Manuals for 1997 forward provide examples of light or moderate leisure-time physical activities, although these examples were not routinely shared with respondents.  These examples include leisurely walking or bicycling, slow swimming or dancing, and simple gardening.
+
+For general discussion of how and why the NHIS collected information on adult physical activity for 1997 forward, see VIG10FNO.]]></txt>
+      <codInstr><![CDATA[
+MOD10FWK is a 2-digit-numeric variable.
+
+00:	Not in Universe
+94:	Less than once per week
+95:	Never
+96:	Unable to do this activity
+97:	Unknown-refused
+98:	Unknown-not ascertained
+99:	Unknown-don't know]]></codInstr>
+      <concept vocab="IPUMS">Physical Activity Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="VIG10FWK" files="ExtractData" name="VIG10FWK" intrvl="contin" dcml="0">
+      <location StartPos="137" width="2" EndPos="138"/>
+      <labl>Frequency of vigorous activity 10+ minutes: Times per week</labl>
+      <txt><![CDATA[VIG10FWK is a recoded variable created by the staff at the National Center for Health Statistics that draws upon the information in VIG10FTP (Frequency of vigorous activity 10+ minutes: Time period) and VIG10FNO (Frequency of vigorous activity 10+ minutes: Number of units) and reports the frequency of vigorous leisure-time physical activities in terms of a single time unit, times per week.
+
+Vigorous leisure-time activities are described in the survey question itself as activities that "cause heavy sweating or large increases in breathing or heart rate."  The Field Representative's Manuals for 1997 forward provide examples of vigorous activities, although these examples were not routinely shared with respondents.  These examples include fast walking, fast bicycling, jogging, strenuous swimming or sports play, vigorous aerobic dance, and strenuous gardening.
+
+For general discussion of how and why the NHIS collected information on adult physical activity for 1997 forward, see VIG10FNO.]]></txt>
+      <codInstr><![CDATA[
+
+00: Not in Universe
+94: Less than once per week
+95: Never
+96: Unable to do moderate/vigorous activity
+97: Unknown-refused
+98: Unknown-not ascertained
+99: Unknown-don't know]]></codInstr>
+      <concept vocab="IPUMS">Physical Activity Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+  </dataDscr>
+</codeBook>
